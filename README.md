@@ -30,7 +30,7 @@ mamba install -c bioconda r-devtools=2.4.2
 R
 ```
 
-###load libraries and install via dada2 via github
+### load libraries and install via dada2 via github
 ```
 library("devtools")
 devtools::install_github("benjjneb/dada2", ref="v1.16")
