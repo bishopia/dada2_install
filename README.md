@@ -6,6 +6,11 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
+### install mamba in your base environment
+```
+conda install mamba -n base -c conda-forge
+```
+
 ### create new conda environment, put it in a place with all your other conda environments and where there is lots of spaces (e.g. data, not home or scratch)
 ```
 mamba create --prefix /gpfs/home/ibishop/data/ibishop/condas/dada2
