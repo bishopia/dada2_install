@@ -8,7 +8,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 ### install mamba in your base environment
 ```
-conda install mamba -n base -c conda-forge
+conda install mamba -c conda-forge
 ```
 
 ### create new conda environment, put it in a place with all your other conda environments and where there is lots of spaces (e.g. data, not home or scratch)
@@ -21,8 +21,8 @@ conda activate /gpfs/home/ibishop/data/ibishop/condas/dada2
 ```
 ### install r then devtools
 ```
-mamba install -c bioconda r-base=4.0
-mamba install -c bioconda r-devtools=2.4.2
+mamba install -c conda-forge r-base=4.0
+mamba install -c conda-forge r-devtools=2.4.2
 ```
 
 ### start R
