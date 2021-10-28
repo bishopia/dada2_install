@@ -1,4 +1,5 @@
 # How to build dada2 environment
+##### not the most straighforward install, here's how i've been doing it.
 
 ### in your home directory, download and install miniconda3
 ```
